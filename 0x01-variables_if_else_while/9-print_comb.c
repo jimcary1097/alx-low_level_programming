@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -7,6 +8,7 @@
 int main(void)
 {
 	unsigned int number = 48;
+
 	while (number <= 57)
 	{
 		putchar(number);
@@ -18,5 +20,5 @@ int main(void)
 		number++;
 	}
 	putchar('\n');
-	return (0):
+	return (0);
 }

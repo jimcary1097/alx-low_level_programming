@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * _abs - computes the absolute value of an integer
- * @n: The argument to be evaluated
+ * print_last_digit - prints the last digit of a number
+ * @n: The number to be checked
  *
- * Return: abs_val
+ * Return: last_digt
  */
-int _abs(int n)
+int print_last_digit(int n)
 {
-	int abs_val;
+	int last_digt;
 
 	if (n < 0)
-		abs_val = -1 * n;
+		last_digt = (n * -1) % 10;
 	else
-		abs_val = n;
-	return (abs_val);
+		last_digt = n % 10;
+	_putchar(last_digt + '0');
+	return (last_digt);
 }

@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * alloc_grid - Creates a 2 dimensional array of integers
  * @width: The number of columns in the array

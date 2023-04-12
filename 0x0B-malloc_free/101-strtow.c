@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * get_words_count - Computes the number of words in a string
  * @str: The source string

@@ -1,6 +1,3 @@
-/* Author: Babatunde Olaniyi */
-
-
 #include "variadic_functions.h"
 
 /**

@@ -7,7 +7,7 @@ int _strlen(char *s)
 	 return (0);
  while (*s++)
 	 i++;
- return (i)
+ return (i)}
 
 /**
  * print_list - prints all the elements of a linked list
@@ -21,16 +21,12 @@ size_t print_list(const list_t *h)
 
 	while (h)
 	{
-		if (!h->str)
-			printf("[0] (nil)\n");
-		else
-			printf("[%u] %s\n", h->len, h->str);
-		h = h->next;
-		i++;
-	}
+           printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
+           h = h->next;
+		i++ ;
 
-	return (s);
-}
 
-	
+         }
+
+return (i);	
 }
